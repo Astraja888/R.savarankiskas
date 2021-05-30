@@ -1,0 +1,7 @@
+rm(list=ls())
+happiness <- read.csv("C:/Users/oswal/OneDrive/Stalinis kompiuteris/Duomenu analitika/R/Atsiskaitymui/world-happiness-report-2021.csv")
+View(happiness)
+library('e1071')
+library('lattice')
+library('ggplot2')
+library('caret')
